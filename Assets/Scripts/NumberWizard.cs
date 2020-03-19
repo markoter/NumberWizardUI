@@ -14,12 +14,13 @@ public class NumberWizard : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        max += 1;
         StartGame();
     }
 
     void StartGame()
     {
-        max += 1;
+        
         NextGuess();
     }
     public void OnPressHigher()
